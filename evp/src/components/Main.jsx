@@ -385,33 +385,38 @@ const Main = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-full box-border">
-          <div className="flex flex-row justify-center items-center mb-6 w-full box-border">
-            <div className="rounded-[12px] m-2">
-              <img src={i1} alt="" className="w-[500px] h-[400px] object-cover" />
+        <div className="flex flex-col items-center justify-center w-full box-border  ">
+          <div className="flex flex-row justify-center items-center mb-6 w-full box-border ">
+            <div className="rounded-[32px] m-2 transition-shadow duration-500 hover:shadow-lg">
+              <img src={i1} alt="" className="w-[500px] h-[400px] object-cover  transition-shadow duration-900 hover:shadow-lg hover:cursor-pointer " />
             </div>
-            <div className="rounded-[12px] m-2">
-              <img src={i2} alt="" className="w-[500px] h-[400px] object-cover" />
-            </div>
-          </div>
-          <div className="flex flex-row justify-center items-center mb-6 w-full box-border">
-            <div className="rounded-[12px] m-2">
-              <img src={i3} alt="" className="w-[440px] h-[380px] object-cover" />
-              <div className="rounded-[12px] mt-4">
-                <img src={i4} alt="" className="w-[440px] h-[380px] object-cover" />
-              </div>
-            </div>
-            <div className="rounded-[12px] m-2">
-              <img src={i5} alt="" className="w-[500px] h-[400px] object-cover" />
-              <div className="rounded-[12px] mt-4">
-                <img src={i6} alt="" className="w-[500px] h-[400px] object-cover" />
-              </div>
+            <div className="rounded-[12px] m-2 ">
+              <img src={i2} alt="" className="w-[500px] h-[400px] object-cover hover:cursor-pointer transition-shadow duration-900 hover:shadow-lg" />
             </div>
           </div>
-          <div className="m-[0_112.4px_2px_112.4px] inline-block self-start break-words  font-bold text-[60px] tracking-[-1px] leading-[1.629] text-[#000000]">
+          <div className="flex flex-row justify-center items-center mb-6 w-full box-border">
+            <div className="rounded-[12px] m-2 ">
+              <img src={i3} alt="" className="w-[440px] h-[380px] object-cover hover:cursor-pointer transition-shadow duration-900 hover:shadow-lg" />
+              <div className="rounded-[12px] mt-4 ">
+                <img src={i4} alt="" className="w-[440px] h-[380px] object-cover hover:cursor-pointer transition-shadow duration-900 hover:shadow-lg" />
+              </div>
+            </div>
+            <div className="rounded-[12px] m-2 ">
+              <img src={i5} alt="" className="w-[500px] h-[400px] object-cover hover:cursor-pointer transition-shadow duration-900 hover:shadow-lg" />
+              <div className="rounded-[12px] mt-4 ">
+                <img src={i6} alt="" className="w-[500px] h-[400px] object-cover hover:cursor-pointer transition-shadow duration-900 hover:shadow-lg" />
+              </div> 
+            </div>
+          </div>
+
+          
+         
+
+          
+          <div className=" ml-20 inline-block self-start break-words  font-bold text-[60px] tracking-[-1px] leading-[1.629] text-[#000000]">
           Tracks
         </div>
-        <div className="m-[0_98px_68px_98px] flex self-start box-sizing-border">
+        <div className="mb-24 ml-20 flex self-start box-sizing-border">
           <span className="break-words  font-medium text-[20px] text-[rgba(0,0,0,0.8)]">
             Comprising a set of strategic tracks, this program provides startups with the tools and support they need to thrive in the competitive business landscape.
           </span>
